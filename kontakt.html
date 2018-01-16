@@ -1,0 +1,75 @@
+---
+# this is an empty front matter
+---
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  <title>WordPress Service Barcelona - wdcee.com</title>
+
+ 
+{% include header.html %}
+
+
+
+<section id="homepage-hero">
+	<div class="homepage-wrapper">
+
+	<h1>Mein <span>Webdesign & SEO Service für</span><br><span class="yellow">Frankfurt am Main</span></h1>
+	<img src="/img/logo.svg" alt="logo">
+
+
+	</div>
+</section>
+
+
+<section id="area1">
+
+	<div class="wrapper-left">
+
+
+
+
+		<h1>Konktaktformular</h1>
+		<p>Hier können Sie mir eine Nachricht schreiben. Jede Anfragen ist selbstverständlich unvebindlich und kostenlos.</p>
+
+<form action="https://formspree.io/lukasz.adms@gmail.com"
+      method="POST">
+
+		<label for="Name">Name</label>
+		<input type="text">
+
+		<label for="Name">Email</label>
+		 <input type="email" name="_replyto">
+
+		<label for="Name">Nachricht</label>
+		<textarea name="textarea" cols="30" rows="10"></textarea>
+		
+	
+		<input type="submit" value="Absenden">
+</form>
+
+
+
+
+	</div>
+
+	<div class="wrapper-right">
+		
+		{% include site.html %}
+
+	</div>
+
+</section>
+
+
+
+
+
+{% include footer.html %}
+
+<script src="/main.js"></script>
+
+</body>
+</html>
