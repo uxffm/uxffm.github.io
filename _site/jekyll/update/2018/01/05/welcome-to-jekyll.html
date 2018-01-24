@@ -19,7 +19,15 @@
 
   <body>
 
-    >
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85993724-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-85993724-7');
+    </script>
 
 
    <!-- styles.css Link -->
@@ -61,23 +69,6 @@
 
 
 
-<nav id="lmenu">
-
-<h3 id="menu" onclick="myFunction()">Menu</h3>
-
-
-	<ul>
-
-        <a href="/"><li>Home</li></a>
-        <a href="/webdesign-frankfurt"><li>Web Design</li></a>
-        <a href="/web-entwicklung-frankfurt"><li>Web Entwicklung</li></a>
-        <a href="/seo-frankfurt"><li>Suchmaschinenoptimierung</li></a>
-        <a href="/wordpress-frankfurt"><li>WordPress Webdesign</li></a>
-        <a href="/responsive-web-design-frankfurt"><li>Responsive Webdesign</li></a>
-        <a href="/kontakt"><li>Kontakt</li></a>
-
-	</ul>
-</nav>	
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -119,10 +110,13 @@
 
     <footer>
 <p>© 2018 Freelance Webdesigner Frankfurt - All Rights Reserved. By Lukasz Adam</p>
-<a href="imoportant.html"><h3><img src="/img/impressum.svg"></h3></a>
+
+<div class="footer-unten">
+<a href="imoportant.html"><h3><img src="/img/Impressum.svg"></h3></a>
 <a href="datenschutz"><h3>Datenschutz</h3></a>
 <a href="about-us"><h3>Über Mich</h3></a>
-<a href="sitemap"><h3>Sitemap</h3></a>
+</div>
+
 
 </footer>
 
