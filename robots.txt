@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /imoportant.html
 Disallow: /seo-frankfurt
 Disallow: /webdessign-frankfurt
